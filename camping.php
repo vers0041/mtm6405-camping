@@ -64,7 +64,7 @@ function updateResponse($response)
  */
 function help()
 {
-  return 'Welcome to Camping, the text based camping game. Use the following commands to play the game: <span class="red">fire</span>, <span class="red">wood</span>, <span class="red">tent</span>, <span class="red">roast</span>, <span class="red">sleep</span>. To restart the game use the <span class="red">restart</span> command For these instruction again use the <span class="red">help</span> command';
+  return 'Welcome to Camping, the text based camping game. Use the following commands to play the game: <span class="red">fire</span>, <span class="red">wood</span>, <span class="red">tent</span>, <span class="red">roast</span>, <span class="red">rest</span>. To restart the game use the <span class="red">restart</span> command For these instruction again use the <span class="red">help</span> command';
 }
 
 /**********************************************
@@ -97,6 +97,6 @@ function help()
  */
 
 /**
- * sleep
+ * rest
  * 
  */
