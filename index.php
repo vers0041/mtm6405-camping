@@ -1,3 +1,5 @@
+<!-- ### 2 -->
+<?php require "camping.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,9 +20,14 @@
       <?php echo updateResponse(help()); ?>
     <?php endif; ?>
   </div>
-  <form>
+
+<!-- ### 4 
+to test see if url changes - if doesnt change it is sending over post so it is working -->
+  <form method="post">
     <input type="text" name="command" class="command" autofocus>
   </form>
+
+
   <a class="clear" href="?clear">Clear Session</a>
   <script src="script.js"></script>
 </body>
